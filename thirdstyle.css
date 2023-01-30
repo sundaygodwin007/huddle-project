@@ -93,19 +93,15 @@ section {
   background-color: rgb(255, 255, 255);
   margin-top: 4rem;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.041);
+  border: 3px solid rgba(15, 2, 2, 0.41);
   padding: 3rem 5rem 2rem 5rem;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 5px rgba(5px, 5px, 5px, 0.2);
   border-radius: 7px;
+  margin-bottom: 8rem;
 }
 
 section .section-image img {
   width: 100%;
-}
-
-/* adding space between the section image and the article */
-section .flowing-conversation-image {
-  padding-bottom: 10rem;
 }
 
 /* article styling and using the absolute to move the article box a little bit ontop of the footer box */
@@ -120,7 +116,7 @@ article {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 370%;
+  top: 415%;
 }
 
 footer {
@@ -235,11 +231,12 @@ footer .second-column a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.041);
-    padding: 3rem 5rem 3rem 5rem;
-    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(16, 14, 14, 0.41);
+    /* box-shadow: 5px 5px 5px 5 rgba(5px, 5px, 5px, 0.2); */
     border-radius: 7px;
+    margin-bottom: 20px;
   }
+  /*  */
 
   section .section-image {
     text-align: end;
