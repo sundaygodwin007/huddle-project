@@ -97,11 +97,10 @@ section {
   padding: 3rem 2rem 2rem 2rem;
   box-shadow: 5px 5px 5px 5px rgba(5px, 5px, 5px, 0.2);
   border-radius: 7px;
-  margin-bottom: 30rem;
 }
 
 section {
-  margin: 2rem 3rem;
+  margin: 5rem 3rem;
 }
 
 section .section-image img {
