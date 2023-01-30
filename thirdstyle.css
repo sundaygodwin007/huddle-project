@@ -125,8 +125,9 @@ article {
 footer {
   background-color: hsl(192, 100%, 9%);
   color: #808080;
-  padding: 9rem 3rem 0;
+  /* padding: 9rem 3rem 0; */
   font-size: 14px;
+  padding-top: 4rem;
 }
 
 footer .second-column a {
@@ -134,7 +135,7 @@ footer .second-column a {
   color: #808080;
 }
 
-/* styling for desktop */
+/* styling for desktop view */
 @media (min-width: 767px) {
   body {
     font-size: 18px;
