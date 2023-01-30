@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 body p {
@@ -16,6 +17,7 @@ body p {
 nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 2rem;
 }
 
 nav .nav-links a {
@@ -35,6 +37,102 @@ nav .nav-links .try-it {
   font-weight: 600;
   color: hsl(102, 100%, 0%);
   text-decoration: none;
+}
+
+nav .nav-links a:hover {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+}
+
+.logo {
+  width: 50%;
+}
+
+nav .logo img {
+  width: 40%;
+}
+
+header,
+section {
+  padding: 1rem 1rem;
+}
+
+header {
+  margin-top: 4rem;
+  align-items: center;
+  text-align: center;
+}
+
+header .header-text h1 {
+  font-family: poppins;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+header .header-text button,
+button {
+  background-color: hsl(322, 100%, 66%);
+  color: rgb(255, 255, 255);
+  padding: 14px 2rem;
+  border-radius: 5rem;
+  font-weight: 600;
+  border-style: none;
+  cursor: pointer;
+}
+
+header .header-image img {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+header .header-text button:hover {
+  background-color: rgb(4, 82, 82);
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  margin-top: 4rem;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.041);
+  padding: 3rem 5rem 2rem 5rem;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+section .section-image img {
+  width: 100%;
+}
+
+/* adding space between the section image and the article */
+section .flowing-conversation-image {
+  padding-bottom: 10rem;
+}
+
+/* article styling and using the absolute to move the article box a little bit ontop of the footer box */
+article {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 3rem;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 400%;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #808080;
+  padding: 9rem 3rem 0;
+  font-size: 14px;
+}
+
+footer .second-column a {
+  text-decoration: none;
+  color: #808080;
 }
 
 /* styling for desktop */
@@ -152,7 +250,7 @@ nav .nav-links .try-it {
   }
 
   section .section-image img {
-    width: 70%;
+    width: 100%;
   }
 
   article {
@@ -161,12 +259,16 @@ nav .nav-links .try-it {
     text-align: center;
     padding: 2rem 3rem;
     margin: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 325%;
   }
 
   footer {
     background-color: hsl(192, 100%, 9%);
     color: #808080;
-    padding: 5rem 3rem;
+    padding: 9rem 3rem 0;
     font-size: 14px;
   }
 
@@ -175,6 +277,7 @@ nav .nav-links .try-it {
     grid-template-columns: 3fr 2fr 1fr;
     column-gap: 8rem;
   }
+
   footer .second-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
