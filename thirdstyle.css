@@ -173,8 +173,8 @@ footer .second-column a {
 
   nav .nav-links .try-it {
     background-color: hsl(193, 100%, 96%);
-    box-shadow: 0 3px 3px 0 rgba(234, 227, 227, 0.2),
-      0 6px 10px 0 rgba(156, 140, 140, 0.19);
+    box-shadow: 0 6px 10px 5px rgba(153, 145, 145, 0.2),
+      0 6px 10px 5px rgba(114, 105, 105, 0.2);
     padding: 10px 2rem;
     border-radius: 5rem;
     font-weight: 600;
