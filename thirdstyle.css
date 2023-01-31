@@ -206,6 +206,7 @@ footer .second-column a {
 
   header .header-text {
     padding-right: 3rem;
+    text-align: left;
   }
 
   header .header-text h1 {
@@ -241,6 +242,10 @@ footer .second-column a {
     margin-bottom: 140px;
   }
   /*  */
+
+  section .grow-together {
+    padding: 0 3rem;
+  }
 
   section .section-image {
     text-align: end;
