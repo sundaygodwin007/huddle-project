@@ -166,9 +166,9 @@ footer .second-column a {
   }
 
   nav .try-it {
-    border: 2px solid hsl(193, 100%, 96%);
     background-color: hsl(193, 100%, 96%);
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 1px 0 rgba(234, 227, 227, 0.2),
+      0 2px 10px 0 rgba(156, 140, 140, 0.19);
     padding: 10px;
     border-radius: 5rem;
     font-weight: 600;
@@ -236,7 +236,7 @@ footer .second-column a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    border: 1px solid rgba(16, 14, 14, 0.41);
+    border: 1px solid rgba(191, 180, 180, 0.41);
     /* box-shadow: 5px 5px 5px 5 rgba(5px, 5px, 5px, 0.2); */
     border-radius: 7px;
     margin-bottom: 140px;
@@ -260,7 +260,7 @@ footer .second-column a {
   }
 
   article {
-    border: 1px solid black;
+    border: 1px solid rgba(191, 180, 180, 0.41);
     width: 50%;
     text-align: center;
     padding: 2rem 3rem;
