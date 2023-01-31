@@ -32,9 +32,9 @@ nav .nav-links .try-it {
   border: 2px solid hsl(193, 100%, 96%);
   background-color: hsl(193, 100%, 96%);
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
+  padding: 10px 1rem;
   border-radius: 5rem;
-  font-weight: 600;
+  font-weight: 300;
   color: hsl(102, 100%, 0%);
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ nav .nav-links a:hover {
 }
 
 nav .logo img {
-  width: 70%;
+  width: 40%;
 }
 
 header,
@@ -171,11 +171,11 @@ footer .second-column a {
     font-size: 13px;
   }
 
-  nav .try-it {
+  nav .nav-links .try-it {
     background-color: hsl(193, 100%, 96%);
-    box-shadow: 0 3px 1px 0 rgba(234, 227, 227, 0.2),
-      0 2px 10px 0 rgba(156, 140, 140, 0.19);
-    padding: 10px;
+    box-shadow: 0 3px 3px 0 rgba(234, 227, 227, 0.2),
+      0 6px 10px 0 rgba(156, 140, 140, 0.19);
+    padding: 10px 2rem;
     border-radius: 5rem;
     font-weight: 600;
     color: hsl(102, 100%, 0%);
@@ -191,7 +191,7 @@ footer .second-column a {
   }
 
   nav .logo img {
-    width: 40%;
+    width: 25%;
   }
 
   header,
