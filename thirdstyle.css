@@ -91,7 +91,6 @@ header .header-text button:hover {
 
 section {
   background-color: rgb(255, 255, 255);
-  margin-top: 4rem;
   align-items: center;
   border: 3px solid rgba(15, 2, 2, 0.41);
   padding: 3rem 2rem 2rem 2rem;
@@ -120,6 +119,7 @@ article {
   left: 0%;
   right: 0%;
   top: 375%;
+  margin-top: 30%;
 }
 
 footer {
