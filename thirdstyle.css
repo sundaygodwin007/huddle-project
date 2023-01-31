@@ -92,9 +92,9 @@ header .header-text button:hover {
 section {
   background-color: rgb(255, 255, 255);
   align-items: center;
-  border: 3px solid rgba(15, 2, 2, 0.41);
+  border: 1px solid rgba(197, 175, 175, 0.41);
   padding: 3rem 2rem 2rem 2rem;
-  box-shadow: 5px 5px 5px 5px rgba(5px, 5px, 5px, 0.2);
+  box-shadow: 0px 0px 0px 0px rgba(5px, 0px, 5px, 0.2);
   border-radius: 7px;
 }
 
@@ -108,7 +108,7 @@ section .section-image img {
 
 /* article styling and using the absolute to move the article box a little bit ontop of the footer box */
 article {
-  border: 1px solid black;
+  border: 1px solid rgb(216, 183, 183);
   width: 50%;
   border-radius: 10px;
   text-align: center;
