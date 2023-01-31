@@ -100,6 +100,7 @@ section {
 
 section {
   margin: 5rem 3rem;
+  margin-bottom: 8rem;
 }
 
 section .section-image img {
@@ -118,8 +119,12 @@ article {
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 375%;
+  top: -15%;
   /* margin-top: 30%; */
+}
+
+.footer-combined {
+  position: relative;
 }
 
 footer {
@@ -155,6 +160,7 @@ footer .second-column a {
   nav {
     display: flex;
     justify-content: space-between;
+    padding: 2rem 3rem;
   }
 
   nav .nav-links a {
@@ -196,7 +202,7 @@ footer .second-column a {
   header {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 600px 1fr;
     align-items: center;
   }
 
@@ -266,9 +272,9 @@ footer .second-column a {
     padding: 2rem 3rem;
     margin: auto;
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 325%;
+    left: 0;
+    right: 0;
+    top: -30%;
   }
 
   footer {
@@ -276,6 +282,10 @@ footer .second-column a {
     color: #808080;
     padding: 9rem 3rem 0;
     font-size: 14px;
+  }
+
+  .footer-combined {
+    position: relative;
   }
 
   footer .column {
